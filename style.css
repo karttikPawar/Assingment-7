@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  height: 100vmin;
+  display: flex;
+  background: url("https://i.redd.it/99n3s0k1zn351.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containerLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.7;
+}
+.cityDate {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cityName {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+}
+#date {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.tempContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tempData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#temp {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  text-shadow: 6px 6px 5px #000000;
+}
+#sky {
+  margin-top: 20px;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 6px 6px 5px #000000;
+}
+
+.containerRight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 0.3;
+}
+
+.inputContainer {
+  margin-top: 90px;
+  width: max-content;
+  height: max-content;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 8px 0px -1px #ffc300;
+}
+#cityInput {
+  width: 300px;
+  font-size: 24px;
+  border: none;
+  background: white;
+}
+#cityInput:focus {
+  outline: none;
+  background-color: #fff;
+}
+.otherDetails {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.valueHolder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.valName {
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 1px 3px 5px #000000;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.value {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 1px 3px 5px #000000;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
